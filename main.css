@@ -14,7 +14,7 @@ body{
     margin-top: 5rem;
 }
 .m-top{
-    margin-top:3rem;
+    margin-top:5rem;
 }
 .more-top{
     margin-top:9rem;
@@ -32,7 +32,7 @@ body{
 .iconsize{
     font-size:8vh;
 }
-.firstpage{
+.firstpage {
     background: rgb(228,161,187);
 background: linear-gradient(326deg, rgba(228,161,187,1) 0%, rgba(228,161,187,1) 35%, rgba(40,193,223,1) 100%);
 color:white;
@@ -52,3 +52,15 @@ color:white;
     font-weight: 650;
 }
 
+.firstpageHover:hover {
+    background: rgb(228,161,187);
+    background: linear-gradient(326deg, rgba(228,161,187,1) 0%, rgba(228,161,187,1) 35%, rgba(40,193,223,1) 100%);
+    color:white;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+
+.my-69{
+    padding-bottom: 3rem;
+    padding-top:3rem;
+}
