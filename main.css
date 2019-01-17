@@ -2,4 +2,53 @@
     border-radius: 15px;
     padding: 7px 25px;
 }
+body{
+    font-family: 'Raleway', sans-serif;
+}
+.my-3{
+    margin-bottom: 3rem;
+    margin-top:3rem;
+}
+.my-5{
+    margin-bottom:5rem;
+    margin-top: 5rem;
+}
+.m-top{
+    margin-top:3rem;
+}
+.more-top{
+    margin-top:9rem;
+}
+.my-9{
+    margin-bottom: 9rem;
+    margin-top:9rem;
+}
+.bg-row1{
+    background-image:url(1.jpg);
+    background-size:cover;
+    background-position:center;
+    background-attachment: fixed;
+}
+.iconsize{
+    font-size:8vh;
+}
+.firstpage{
+    background: rgb(228,161,187);
+background: linear-gradient(326deg, rgba(228,161,187,1) 0%, rgba(228,161,187,1) 35%, rgba(40,193,223,1) 100%);
+color:white;
+    
+}
+.buttonstyle{
+    border-radius: 25px;background-color: white; color:purple;
+    padding: 8px 50px;
+}
+.buttonstyle:hover{
+    background: rgb(228,161,187);
+background: linear-gradient(180deg, rgba(228,161,187,1) 0%, rgba(228,161,187,1) 35%, rgba(40,193,223,1) 100%);
+color:white;
+}
+.bigfont{
+    font-size:6vw;
+    font-weight: 650;
+}
 
