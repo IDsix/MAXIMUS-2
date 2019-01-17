@@ -50,5 +50,50 @@ color:white;
 .bigfont{
     font-size:6vw;
     font-weight: 650;
+    
 }
-
+.smallerfont{
+    font-size:3vw;
+    font-weight: 650;
+}
+.tinyfont{
+    font-size:1.1vw;
+    font-weight: 350;
+}
+.flexss{
+    display: flex;
+    color:rgb(228,161,187);
+    width:100%;
+    justify-content: flex-start;
+}
+.flexcol{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:rgb(228,161,187);
+    margin-right: 20px;
+}
+.flexcol h1, .flexcol p{
+    margin:unset;
+    padding:unset;
+}
+.car{
+    min-height: 30vh;
+}
+.carousel-control.right,.carousel-control.left{
+    background-image: none;
+}
+.car span{
+    color:rgb(228,161,187);
+}
+.carousel-indicators li{
+    border:1px solid lrgb(228,161,187) !important;
+    bottom:unset !important;
+}
+.carousel-indicators .active{
+    background-color:rgb(228,161,187) !important;
+}
+.carousel-control{
+    width:0% !important;
+}
